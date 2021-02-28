@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Basics</title>
+  <style>
+      body{
+          background-color: black;
+          color:whitesmoke;
+      }
+  </style>
+</head>
+
+<body>
+    <p>
+        Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web
+        browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as
+        JavaScript.
+
+        <em>Web browsers receive HTML documents from a web server or from local storage </em>and render the documents
+        into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues
+        for the appearance of the document.
+
+        HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as
+        interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents
+        by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items.
+        HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly
+        introduce content into the page. Other tags such as
+    <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not
+        display the HTML tags, but use them to interpret the content of the page.
+
+        HTML can embed programs written in a scripting language such as JavaScript, which affects the behavior and
+        content of web pages. Inclusion of CSS defines the look and layout of content. The World Wide Web Consortium
+        (W3C), former maintainer of the HTML and current maintainer of the CSS standards, has encouraged the use of CSS
+        over explicit presentational HTML since 1997.
+    </p>
+    contact me through email:<a href="mailto:abinayavsana@gmail.com">Abhi</a>
+    contact:<a href="tel:8220884517">Contact abhi</a>
+    <hr>
+    <img src="briyani.jpg" alt="buhari briyani" style="height:30%;width:30%;">
+    <hr>
+    <table style="border: 5px solid blue;">
+        <thead>
+          <tr><th>Sl No</th><th>Media Logo</th><th>Media Name </th><th>Media Link</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td><img src="C:\Users\GA - 05\Desktop\html\Facebook.png" alt="facebook logo" style="width:85px;height:25px;"></td><td>Facebook</td><td><a href="https://www.facebook.com/">FACEBOOK</a></td></tr>
+                <tr><td>2</td><td><img src="C:\Users\GA - 05\Desktop\html\insta.png" alt="instagram logo" style="width:85px;height:25px;"></td><td>Instagram</td><td><a href="https://www.instagram.com/">INSTAGRAM</a></td></tr>
+                    <tr><td>3</td><td><img src="C:\Users\GA - 05\Desktop\html\linkedin.png" alt="LinkedIn logo" style="width:85px;height:25px;"></td><td>LinkedIn</td><td><a href="https://www.linkedin.com/">LINKEDIN</a></td></tr>
+                        <tr><td>4</td><td><img src="C:\Users\GA - 05\Desktop\html\twitter.png" alt="Twitter logo" style="width:85px;height:25px;"></td><td>Twitter</td><td><a href="https://twitter.com/">TWITTER</a></td></tr>
+                            <tr><td>5</td><td><img src="C:\Users\GA - 05\Desktop\html\whatsapp.png" alt="Whatsapp logo" style="width:85px;height:25px;"></td><td>Whatsapp</td><td><a href="https://www.whatsapp.com/">WHATSAPP</a></td></tr>
+                                <tr><td>6</td><td><img src="C:\Users\GA - 05\Desktop\html\youtube.png" alt="youtube logo" style="width:85px;height:25px;"></td><td>Youtube<td><a href="https://www.youtube.com/">YOUTUBE</a></td></tr>
+            
+       
+       
+            </tbody>
+
+
+
+
+    </table>
+<hr>
+<table id="shopping1col" cellpadding="0" width 100%>
+    <table width =30% background-color=white>
+        <tr><td><a href="https://www.amazon.in/" target="_blank">amazon</a></td></tr>
+        <tr><td><a href="https://www.flipkart.com/" target="_blank">Flipcart</a></td></tr>
+        <tr><td><a href="https://www.ebay.com/" target="_blank">Ebay</a></td></tr>
+        <tr><td><a href="https://www.snapdeal.com/" target="_blank">Snapdeal</a></td></tr>
+        <tr><td><a href="https://www.myntra.com/" target="_blank">Myntra</a></td></tr>
+        <tr><td><a href="https://www.ajio.com/" target="_blank">Ajio</a></td></tr>
+         <tr><td><a href="https://www.bigbasket.com/" target="_blank">Big Basket</a></td></tr>
+       <tr><td><dl>
+           <dt>Foods
+           </dt>
+           <dd> Tata Salt</dd>
+           <dd> Maggi 2 Minutes Masala Noodles</dd>
+           <dd> Vedaka Maida</dd>
+           <dd> Vedaka Cumin (Jeera) Seed</dd>
+           <dd> Tata Sampann Thick Poha</dd>
+           <dd> Tata Sampann Toor Dal</dd>
+           <dd> oils and ghee</dd>
+           <dd> Dhaal</dd>
+           <dd> Rice</dd>
+           <dt>Electronics</dt>
+           <dd>Optical Media</dd>
+           <dd>Regency TR-1</dd><dd>Panasonic DVD-L10</dd><dd>Mattel Electronics Football</dd><dd>Logitech Harmony</dd>
+
+       </dl></td></tr>
+
+    </table>
+</body>
+
+</html>
